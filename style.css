@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to bottom right, #ffe3e3, #ffd1f7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+.container {
+  text-align: center;
+  padding: 20px;
+  max-width: 600px;
+}
+h1 {
+  font-size: 28px;
+  color: #e91e63;
+  margin-bottom: 10px;
+}
+.message {
+  font-size: 18px;
+  color: #333;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.kannada {
+  font-family: 'Noto Sans Kannada', sans-serif;
+  font-size: 17px;
+  color: #4a148c;
+}
+.from {
+  margin-top: 25px;
+  font-weight: bold;
+  color: #d81b60;
+}
+.slider {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+  scroll-snap-type: x mandatory;
+}
+.slider img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  scroll-snap-align: center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
